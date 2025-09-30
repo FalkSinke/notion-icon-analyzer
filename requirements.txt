@@ -1,0 +1,26 @@
+# This file lists Python package dependencies for icon analysis and Notion upload system
+# Install all packages using: pip install -r requirements.txt
+
+# Gemini API client for vision analysis
+google-generativeai>=0.3.0
+
+# Official Notion SDK for database operations
+notion-client>=2.0.0
+
+# Image processing and manipulation library
+Pillow>=10.0.0
+
+# SVG to PNG conversion library
+cairosvg>=2.7.0
+
+# Environment variable management from .env files
+python-dotenv>=1.0.0
+
+# Progress bar visualization for long-running operations
+tqdm>=4.66.0
+
+# Testing framework for unit and integration tests
+pytest>=7.4.0
+
+# HTTP requests library (used by APIs)
+requests>=2.31.0
