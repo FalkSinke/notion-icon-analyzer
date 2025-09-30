@@ -2,6 +2,8 @@
 
 Automated pipeline for analyzing 884 Notion icons using Gemini 2.5 Flash and uploading them to a Notion database with rich semantic metadata.
 
+**Repository**: [https://github.com/FalkSinke/notion-icon-analyzer](https://github.com/FalkSinke/notion-icon-analyzer)
+
 ## Overview
 
 This system processes SVG icons through a three-stage pipeline:
@@ -88,9 +90,10 @@ iconupload/
 
 ## Installation
 
-### 1. Clone and Navigate
+### 1. Clone the Repository
 ```bash
-cd /Users/falksinke/dev/privateprojects/notion-projects/iconupload
+git clone https://github.com/FalkSinke/notion-icon-analyzer.git
+cd notion-icon-analyzer
 ```
 
 ### 2. Create Virtual Environment
